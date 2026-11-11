@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meme Research"
+  short_description: "Research exact memecoin contracts with sourced evidence"
+  default_prompt: "Use $meme-research to assess this chain and full contract, compare its strongest thesis with counterevidence, and state what remains unknown."

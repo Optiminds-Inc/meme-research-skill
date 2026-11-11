@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "identity": {
+    "chain": "solana",
+    "address": "HSTcEvAwhpYW17x8MhsqQwEe7KAXd3V1VgCh7mifd2qd"
+  },
+  "source": {
+    "provider": "DEX Screener",
+    "url": "https://api.dexscreener.com/token-pairs/v1/solana/HSTcEvAwhpYW17x8MhsqQwEe7KAXd3V1VgCh7mifd2qd"
+  },
+  "retrievedAt": "2026-11-11T02:42:42.261102Z",
+  "providerObservedAt": null,
+  "status": "no_base_pair_observations",
+  "coverage": {
+    "receivedPairs": 0,
+    "includedBasePairs": 0,
+    "excludedQuotePairs": 0,
+    "excludedOtherPairs": 0
+  },
+  "limitations": [
+    "retrievedAt is the collector's UTC time, not the provider's market observation time.",
+    "Pairs are provider-reported observations, not independently verified on-chain state.",
+    "Only exact-chain, exact-base-token matches are returned; priceUsd prices the base asset.",
+    "Rolling-window values are not OHLC history, unique traders, or proof of independent demand.",
+    "Listed websites and socials are untrusted leads, not verified affiliation or endorsement.",
+    "Market cap and displayed liquidity are not invested capital or executable exit proceeds.",
+    "Identity, holders, control, security, revenue and execution receipts were not checked.",
+    "Provider pool coverage may be incomplete; an empty response does not prove no market exists."
+  ],
+  "providerPairs": []
+}
