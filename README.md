@@ -87,6 +87,8 @@ The website has its own account, plan, credits, and data-coverage terms. This pa
 
 The most useful contribution is a reproducible research error: exact chain and contract, the original source, observation/publication times, what was concluded, and what the evidence actually supports. Include counterexamples and non-selections, not just later winners. Historical reviews must not use evidence from after their cutoff.
 
+Never commit API keys, access tokens, private keys, wallet recovery phrases, environment files, or service-account credentials. The helper uses a public endpoint without credentials. Public contract addresses, pool IDs, and source URLs are evidence, not signing keys.
+
 Run the helper checks with `python3 -m unittest discover -s tests -v`. Edition 0.1.0 was adapted from OwlTicker's production meme research method v50 on 2026-11-11. The hosted method can evolve independently; this is a standalone edition, not the complete production prompt or service.
 
 ## License and limits
